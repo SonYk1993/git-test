@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #1F7A68;
+}
+.section{
+    display: flex;   
+    margin-top: 50px;
+    
+}
+.logo{
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.logo h1{
+    width: 40px;
+    height: auto;
+    text-transform: uppercase;
+    color: #35D699; 
+    font-family: sans-serif;
+}
+button{
+    /* display: block; */
+    /* padding: 10px 10px 20px; */
+    width: 170px;
+    text-align: left;
+    padding-left: 15px;
+}
+.box button h2{
+    padding-bottom: 10px;
+}
+.box{
+    display: flex;
+}
+.box span{
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+.box span a:hover{
+    color: #35D699;
+}
+#strelka{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+
+}
+#strelka2{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    transform: rotate(180deg);
+
+}
+.strelka{
+    width: 170px;
+    justify-content: space-between;
+}
+#strelka3{
+    display: block;
+  }
+#pilot{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
